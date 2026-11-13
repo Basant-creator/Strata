@@ -1,0 +1,56 @@
+{
+  "name": "@basant-creator/strata",
+  "version": "0.1.0",
+  "description": "Repository-local development context and provenance framework for AI-assisted software development",
+  "type": "module",
+  "bin": {
+    "strata": "release/strata.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "build:release": "node scripts/bundle.mjs",
+    "prepublishOnly": "npm run build:release && npm test",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "provenance",
+    "ai-context",
+    "git",
+    "developer-tools",
+    "mcp"
+  ],
+  "author": "Basant Bhushan",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "commander": "^13.1.0",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "esbuild": "^0.28.2",
+    "vitest": "^3.0.7"
+  },
+  "files": [
+    "release/strata.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/Basant-creator/Strata#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basant-creator/Strata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Basant-creator/Strata/issues"
+  }
+}

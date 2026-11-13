@@ -1,0 +1,23 @@
+Strata Source-Available License (View Only)
+
+Copyright (c) 2026 Basant Bhushan. All rights reserved.
+
+The source code in this repository is published so that people can read it and see how
+Strata works. It is not open source.
+
+1. You may view and read the source code.
+2. You may build the software from this source, or install the package the author publishes,
+   and run it unmodified for your own personal or internal use.
+3. Without the author's prior written permission, you may not:
+   a. copy, modify, merge, publish, distribute, sublicense or sell the software or any part
+      of its source code;
+   b. create derivative works based on it;
+   c. offer it, or anything built from it, as a product or service to others.
+4. Where GitHub's Terms of Service allow others to fork or view this repository, that use is
+   permitted only to the extent those terms require, and grants no right beyond this license.
+5. Any use not expressly permitted above is prohibited, except where applicable law grants
+   that right despite this restriction.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+USE OF THE SOFTWARE.
